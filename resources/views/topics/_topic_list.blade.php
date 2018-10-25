@@ -25,10 +25,6 @@
                             <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
                              {{ $topic->category->name }}
                         </a>
-                        <a href="#" title="{{ $topic->category->name }}">
-                            <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
-                            {{ $topic->category->name }}
-                        </a>
 
                         <span> • </span>
                         <a href="{{ route('users.show', [$topic->user_id]) }}" title="{{ $topic->user->name }}">
